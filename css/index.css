@@ -1,29 +1,68 @@
 #backgroundImg {
-  margin: auto;
-  border: 3px solid black;
-  padding: 10px;
+  margin:auto;
+  border: 2px solid black;
+  padding: 0px;
   background-position: center;
+  border-radius: 85px;
+  width: 200px;
+  height: 200px;
+  display: block;
 }
 
-#a{
-    color: blue;
-    position: relative;
-  }
 
 #body1{
     position: relative; 
-    padding-top: 200px;
+    text-align: center;
 }
 
+
+
+#btr1, #btr2, #btr3{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#btr1:hover {background-color: #3e8e41}
+#btr2:hover {background-color: #3e8e41}
+#btr3:hover {background-color: #3e8e41}
+
+#btr1 #btr2 #btr3:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 body{
-  
+  background-color: bisque;
 }
 
 #banner{
+    visibility: hidden;
     width: 100px;
     height: 100px;
     background: red;
-    position: relative;
+    position: absolute;
     animation: mymove 5s infinite;
     animation-direction: normal;
     animation-play-state: paused;

@@ -11,10 +11,16 @@ window.onload = function () {
     setBtr2();
     };
 
-    
+    document.getElementById("btr3").onclick = function () {
+      setBtr3();
+      };
 
 
 
+}
+
+function setBtr3(){
+  window.location.href = "./page1.html";
 }
 
 
