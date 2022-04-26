@@ -20,7 +20,9 @@ window.onload = function () {
 }
 
 function setBtr3(){
-  window.location.href = "./page1.html";
+  alert("CLICKED");
+  window.location.href = "page1.html";
+  
 }
 
 
