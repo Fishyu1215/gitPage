@@ -1,0 +1,38 @@
+#backgroundImg {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#a{
+    color: blue;
+    position: relative;
+  }
+
+#body1{
+    position: relative; 
+    padding-top: 200px;
+}
+
+body{
+  
+}
+
+#banner{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-direction: normal;
+    animation-play-state: paused;
+}
+
+@keyframes mymove {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+  }
