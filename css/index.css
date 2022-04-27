@@ -307,4 +307,49 @@ a {
 
  
 
-   
+     #footer {
+
+
+      padding: 5em 5em 3em 5em ;
+      width: calc(100%-20em);
+
+      font-size: 100%;
+      font: inherit;
+      text-align: left;
+
+      display: block;
+      
+      
+    }
+  
+
+
+      .cHeader{
+        text-align: center;
+      }
+
+      #footer .alt{
+        padding-right: 10%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+          "header   header"
+          "Course skill"
+ 
+      }
+
+      #footer .alt .a{
+        text-align: right;
+      }
+
+      #footer .alt .b{
+        text-align: left;
+      }
+
+
+
+      .proj, .wExp{
+        text-align: left;
+      }
